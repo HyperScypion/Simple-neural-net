@@ -1,7 +1,8 @@
 import random
 import numpy as np
 
-# X = (hours sleeping, hours studying), y = score on test
+# XOR
+
 X = np.array(([0, 0], [1, 0], [0, 1]), dtype=float)
 y = np.array(([1], [0], [0]), dtype=float)
 
